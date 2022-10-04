@@ -1,7 +1,7 @@
 # Data Minded Academy - Introduction to Git
 ## Exercises Repository
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedbe/academy_git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/version_control_with_git)
 
 This repository is hosting the exercises provided to students in the context of the `Introduction to Git` course of the Data Minded Academy.
 
@@ -30,7 +30,7 @@ The following exercises are part of the repository:
     * Solve the merge conflict that will happen
 
 * **Exercise 5 (`exercise_5`) - Work with a remote repository**: In this exercise, students are asked to:
-    * Clone [a remote repository](https://github.com/dernat71/dataminded_git_repo)
+    * Clone [a remote repository](https://github.com/datamindedacademy/git_practice_repository)
     * Look at the existing branches with `git branch` then `git branch -a`. What's the difference?
     * Create a feature branch
     * Make some changes (e.g 3 commits ?)
@@ -54,4 +54,4 @@ The following exercises are part of the repository:
 
 This exercise workshop can be run directly on Gitpod (without any need to provision VM or anything) or in a regular Cloud VM. The sections below explain how to run on a Cloud VM. For Gitpod run, you just need to click the button below.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dernat71/dataminded_git_exercises)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedacademy/version_control_with_git)

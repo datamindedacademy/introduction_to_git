@@ -1,0 +1,11 @@
+content/exercise_*
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*DS_Store

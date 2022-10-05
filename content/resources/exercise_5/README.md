@@ -1,7 +1,6 @@
 # Data Minded Academy - Introduction to Git
 ## Exercise 5 - Work with remote repositories
-
-In this exercise you will have to work with a remote repository. The tasks are the following:
+In this exercise, you will have to work with a remote repository. The tasks are the following:
 
 1. Open a terminal and position yourself in the root of this folder (`exercise_5`).
 
@@ -27,8 +26,10 @@ cat ~/.ssh/id_rsa.pub
 
 9. Commit 3 changes to the available files (you can decide what the changes will be)
 
-10. Send your feature branch to the remote repository. You will first need to ask your instructor to add you as a colaborator of the repository. If not, your push will be denied.
+10. Ask your instructor to add you as a Contributor to the repository. If not, you won't be able to push your branch to it.
 
-11. Open a documented Pull Request.
+11. Send your feature branch to the remote repository. You will first need to ask your instructor to add you as a collaborator of the repository. If not, your push will be denied.
 
-12. Fetch the remote repository and list again the available branches (with and without the `-a` flag). What do you see?
+12. Open a documented Pull Request.
+
+13. Fetch the remote repository and list again the available branches (with and without the `-a` flag). What do you see?

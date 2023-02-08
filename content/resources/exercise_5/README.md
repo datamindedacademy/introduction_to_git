@@ -18,7 +18,7 @@ cat ~/.ssh/id_rsa.pub
 
 5. Copy the long string starting with `ssh-rsa` that has been printed to the terminal and head to [the SSH and GPG keys section](https://github.com/settings/keys) of your Github profile. In there, create a new SSH key. Give it a title that will help you to remember the context in which the key has been created (useful to later be able to revoke keys without being worry to break something) and paste the `ssh-rsa` string you copied earlier in the second field of the form. Github will now be able to authenticate you transparently!
 
-6. Clone [this remote repository](https://github.com/dernat71/dataminded_git_repo). Make sure you use the `SSH` URL when clicking on the `Clone` button.
+6. Clone [this remote repository](https://github.com/datamindedacademy/git_practice_repository). Make sure you use the `SSH` URL when clicking on the `Clone` button.
 
 7. Look at the existing branches (with and without the `-a` flag). What do you see?
 

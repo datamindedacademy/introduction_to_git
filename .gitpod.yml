@@ -6,3 +6,4 @@ tasks:
     before: |
       rm -rfv ./exercise* ./.git ./content
       mv /home/gitpod/git-exercices/* .
+      clear

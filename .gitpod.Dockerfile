@@ -4,11 +4,14 @@ FROM gitpod/workspace-full
 # rebuild of the Gitpod environment when needed
 ENV TRIGGER_REBUILD 1
 
+# Gets rid of extra output in the cli
+ENV GIT_DISCOVERY_ACROSS_FILESYSTEM=true
+
 USER root
 
 RUN git config --system user.email "trainee@dataminded.be" && \
-    git config --global user.name "Git trainee" && \
-    git config --global init.defaultBranch master
+  git config --global user.name "Git trainee" && \
+  git config --global init.defaultBranch master
 
 USER gitpod
 
@@ -17,4 +20,4 @@ COPY --chown=gitpod content/ /home/gitpod/git-exercices
 
 # Set up the exercices
 RUN /bin/bash /home/gitpod/git-exercices/resources/bootstrap.sh && \
-    sudo rm -rf /home/gitpod/git-exercices/resources
+  sudo rm -rf /home/gitpod/git-exercices/resources

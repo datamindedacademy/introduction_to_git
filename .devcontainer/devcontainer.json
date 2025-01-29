@@ -1,0 +1,11 @@
+{
+  "name": "version_control_with_git",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "postStartCommand": ".devcontainer/scripts/start.sh",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "workspaceFolder": "/workspace/version_control_with_git",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/version_control_with_git,type=bind"
+}

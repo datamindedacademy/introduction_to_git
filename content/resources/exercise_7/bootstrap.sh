@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ROOT="$(dirname "$0")/../.."
-cd "$ROOT/exercise_7"
+cd "$ROOT/exercise_7" || exit
 
 RESOURCES_EX7="../resources/exercise_7"
 

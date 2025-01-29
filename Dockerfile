@@ -8,13 +8,14 @@ ENV TRIGGER_REBUILD 1
 ENV GIT_DISCOVERY_ACROSS_FILESYSTEM=true
 
 USER root
+ENV HOME /home/vscode
 
-RUN git config --system user.email "trainee@dataminded.be" && \
-  git config --global user.name "Git trainee" && \
+RUN git config --global user.name "Git trainee" && \
+  git config --global user.email "trainee@dataminded.be" && \
   git config --global init.defaultBranch master
 
 USER vscode
-ENV HOME /home/vscode
+
 # Copy exercices content into the image
 COPY --chown=vscode content/ $HOME/git-exercices
 
